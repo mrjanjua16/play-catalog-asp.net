@@ -10,7 +10,7 @@ namespace play_catalog.Dtos
             string Name,
             string Description,
             decimal Price,
-            DateTimeOffset createdDate
+            DateTimeOffset CreatedDate
         );
 
         public record CreateItemDto(
